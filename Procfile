@@ -1,1 +1,2 @@
-web: python manage.py
+release: python manage.py migrate
+web: gunicorn pcswimming.wsgi:application

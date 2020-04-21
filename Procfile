@@ -1,1 +1,1 @@
-web: gunicorn accounts.wsgi.application
+web: python manage.py

@@ -25,7 +25,7 @@ class EmailAuth:
         """
 
         try:
-            user = User.objects.get(pk=userd_id)
+            user = User.objects.get(pk=user_id)
 
             if user.is_active:
                 return user
